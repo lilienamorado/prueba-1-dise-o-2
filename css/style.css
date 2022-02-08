@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;700&display=swap');
+:root{
+	--color-gris:#f3f3f3;
+	--color-azul-aqua:#41c1fe;
+	--fondo-footer:#383737;
+	--titulos:#3c3838;
+	--contenido:#888585;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--contenido);
+}
+h1,h5{
+	font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	border-bottom: 0px solid rgba(255,255,255,0.30);
+	text-align: center;
+}
+.section{
+	padding: 5%;
+	padding-top: 30px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+.no-mostrar{
+	display: none;
+}
+.mostrar{
+	display: inline;
+}
+.header-area.sticky .no-mostrar{
+	display: inline;
+}
+.header-area.sticky .mostrar{
+	display: none;
+}
+.btn-men{
+	background-color: var(--color-azul-aqua);
+	padding: 12px 25px !important;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-top: 90px;
+	font-weight: 900;
+}
+
+.btn-rungran{
+	background-color: var(--color-azul-aqua);
+	padding: 12px 25px !important;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 900;
+}
+.btn-women{
+	background-color: #FFFFFF;
+	padding: 12px 25px !important;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color:  var(--color-azul-aqua);
+	margin-top: 90px;
+	font-weight: 900;
+}
+
+#hero{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	padding:90px 0;
+	height: 100vh;
+}
+#hero h5{
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family:Oswald;
+}
+#hero h1{
+	font-size: 100px;
+	font-weight: 700;
+	font-family: Oswald;
+}
+
+#atajos{
+	text-align: center;
+	padding: 30px;
+}
+
+#cta{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	padding: 12% 0;
+	text-align: right;
+	
+}
+
+#cta p {
+font-size: 10px;
+color: var(--contenido);
+}
+
+#cta h1 span{
+	color: var(--color-azul-aqua);
+	}
+#cta .btn-me .btn-women{
+	text-align: right;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--contenido);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+	
+}
